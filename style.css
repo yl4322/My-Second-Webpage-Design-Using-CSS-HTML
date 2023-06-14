@@ -32,7 +32,8 @@ section.alternate-background {
 }
 
 main img {
-  width: 100%;
+  width: 67%;
+  margin: 15px
 }
 
 /* ---  Groups & Items --- */
@@ -50,6 +51,7 @@ main img {
 .item-double {
   flex: 2;
 }
+
 
 /* -------  Navigation ------- */
 
@@ -102,6 +104,7 @@ form {
 
 form label {
   font-weight: bold;
+  min-width: 150px
 }
 
 form select,
@@ -138,6 +141,7 @@ footer p {
   padding: 20px;
 }
 
+
 /* -------  Media Query ------- */
 /*add+++++++++++++++++++++++++++++++++++++++++++*/
 @media all and (min-width: 600px) {
@@ -164,4 +168,20 @@ footer p {
     color: #bdbdbd;
   }
   
+  /* this is where you make form show up on the right side of the image*/
+  /* and how you make it center*/
+  #join {
+    display:flex;
+    align-items: center;
+  }
+/* created a div inside about section and apply flex box to image and text inside*/
+ #about div {
+  display: flex;
+  align-items: center;
+}
+
+ #about img {
+   max-width: 300px;
+ }
+ 
 }
