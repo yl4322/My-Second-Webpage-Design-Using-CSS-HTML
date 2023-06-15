@@ -31,10 +31,11 @@ section.alternate-background {
   color: #ecdbc9;
 }
 
-main img {
+#join img {
   width: 67%;
   margin: 15px
 }
+
 
 /* ---  Groups & Items --- */
 
@@ -180,8 +181,32 @@ footer p {
   align-items: center;
 }
 
- #about img {
-   max-width: 300px;
+/* this is where you create a box for image and set it hafl
+about section
+*/
+ .image-box {
+  display: flex;
+  max-width: 50%;
  }
  
+ #about img {
+  max-width: calc(50% - 30px);
+  margin: 15px;
+ }
+
+ .text {
+  margin: 10px;
+ }
+
+ /* this is for download section*/
+
+ #download img {
+  max-width: 100%;
+ }
+
+ #download div {
+  display: flex;
+  text-align: center;
+ }
+
 }
